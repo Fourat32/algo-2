@@ -1,0 +1,34 @@
+ALGORITHM table
+VAR
+    i=INTEGER
+    sum=INTEGER
+    array1=array1: ARRAY_OF INTEGER[4];
+    array2=array2: ARRAY_OF INTEGER[5];
+
+BEGIN
+ i=0
+ sum=0
+ array1 [3,1,7,9]
+ write ('print array1')
+ read ('array1[i]')
+ array2 [2, 4, 1, 9, 3]
+ write('print array2')
+ read ('array2[i]')
+ FOR i FROM 0 TO arr.lenght -1 STEP 1 DO
+   IF (array1[i]<>7) THEN
+    array1[3,1,9]
+   END_IF
+   FOR i FROM 0 TO max arr.lenght -1 STEP 1 DO
+     IF (arry2[i]<>4,2) THEN
+        arry2[9,1,3]
+     END_IF
+    
+        
+     ELSE
+        sum = 7 + 4 + 2 
+     END_IF
+     
+   END_FOR
+ END_FOR
+    
+END
